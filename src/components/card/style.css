@@ -1,0 +1,124 @@
+.card {
+    margin: 30px auto;
+    width: 350px;
+    height: 515px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+    background-color: rgba(255, 255, 255, 0.45);
+}
+
+.apartmen-cart {
+    font-size: 13px;
+}
+
+.images {
+    width: 320px;
+    height: 280px;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 30px;
+    transition: 0.5s ease-in-out;
+}
+
+.images:hover {
+    cursor: pointer;
+    scale: 1.05;
+
+}
+
+.places {
+    display: flex;
+    flex-direction: column;
+}
+
+.block {
+    border-radius: 10px;
+    width: 310px;
+    height: 190px;
+    background-color: rgba(166, 164, 164, 0.2);
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.apartmen-h {
+    font-size: 23px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.geo {
+    margin: 5px 0;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.price-apartmen {
+    font-size: 25px;
+    font-weight: 500;
+    color: #85bb65;
+}
+
+.price-apartmen:hover {
+    /*color: rgba(133, 187, 101, 0.53);*/
+    color: green;
+}
+
+.button-card {
+    width: 120px;
+    height: auto;
+    background-color: rgba(127, 255, 0, 0.58);
+    border: 1px solid transparent;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+.button-card:hover {
+    background-color: rgba(127, 255, 0, 0.38);
+}
+
+.discription-hover:hover {
+    color: grey;
+}
+
+.space {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.apartmen-h {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+}
+
+.discription-size {
+    font-size: 15px;
+}
+
+.discription-size span {
+    color: blue;
+}
+
+.discription-size span:hover {
+    color: #0059ff;
+}
+
+
+
